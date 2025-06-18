@@ -62,7 +62,7 @@ const NodalOfficerContactInformation = () => {
               <span className="text-sm">Back to Categories</span>
             </Button>
             <div className="flex items-center space-x-2">
-              <div className="h-6 w-6 rounded bg-[#00c2a8]" />
+              <img src="/header.png" alt="CyberForensics Tools Hub Logo" className="h-6 w-auto" />
               <span className="font-bold text-foreground">{categoryData?.name}</span>
             </div>
           </div>
@@ -117,7 +117,7 @@ const NodalOfficerContactInformation = () => {
             <span className="text-sm">Back to Tools</span>
           </Link>
           <div className="flex items-center space-x-2">
-            <div className="h-6 w-6 rounded bg-[#00c2a8]" />
+            <img src="/header.png" alt="CyberForensics Tools Hub Logo" className="h-6 w-auto" />
             <span className="font-bold text-foreground">All Nodal Officer Contact Information</span>
           </div>
         </div>

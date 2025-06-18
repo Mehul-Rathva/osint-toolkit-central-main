@@ -1,4 +1,3 @@
-
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ExternalLink, Search, Filter, ChevronUp } from "lucide-react";
@@ -77,7 +76,7 @@ const Index = () => {
       <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="container flex h-14 items-center">
           <div className="flex items-center space-x-2">
-            <div className="h-6 w-6 rounded bg-[#00c2a8]" />
+            <img src="/header.png" alt="CyberForensics Tools Hub Logo" className="h-8 w-auto" />
             <span className="font-bold text-foreground">CyberForensics Tools Hub</span>
           </div>
         </div>

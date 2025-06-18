@@ -19,7 +19,7 @@ const PhishingSiteLookup = () => {
             <span className="text-sm">Back to Tools</span>
           </Link>
           <div className="flex items-center space-x-2">
-            <div className="h-6 w-6 rounded bg-[#00c2a8]" />
+            <img src="/header.png" alt="CyberForensics Tools Hub Logo" className="h-6 w-auto" />
             <span className="font-bold text-foreground">Phishing Site Lookup</span>
           </div>
         </div>
